@@ -5,8 +5,22 @@ body {
     padding: 20px;
 }
 h1 {
-    color: #333;
+    color: #3A3B3C;
 }
 p {
-    color: #666;
+    color: #413839;
+}
+a.download-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+a.download-link:hover {
+    background-color: #0056b3;
 }
