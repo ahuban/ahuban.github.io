@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to ahuban's GitHub Page!</h1>
+    <h1> Welcome to ahuban's GitHub Page! </h1>
     <p>This site is created to upload homeworks from my C lecture.</p>
   
  <h2>My C Assignment</h2>
@@ -18,36 +18,11 @@
 
 <script>
     fetch('raw/HW1/HW1_Q2')
-    .then(response => response.text())
-    .then(text => {
-        document.getElementById('code-block').textContent = text;
+   document.getElementById('code-block').textContent = text;
        Prism.highlightAll();
     });
 </script>
-    <script>
-    fetch('raw/HW1/HW1_Q3')
-    .then(response => response.text())
-    .then(text => {
-        document.getElementById('code-block').textContent = text;
-       Prism.highlightAll();
-    });
-</script>
-    <script>
-    fetch('raw/HW1/HW1_Q4a')
-    .then(response => response.text())
-    .then(text => {
-        document.getElementById('code-block').textContent = text;
-       Prism.highlightAll();
-    });
-</script>
-    <script>
-    fetch('raw/HW1/HW1_Q4b')
-    .then(response => response.text())
-    .then(text => {
-        document.getElementById('code-block').textContent = text;
-       Prism.highlightAll();
-    });
-</script>
+    
 </body>
 </html>
 
